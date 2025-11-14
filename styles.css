@@ -341,7 +341,7 @@ body {
     align-items: center;
     position: relative;
     z-index: 1;
-    padding: 6rem 5rem 2rem;
+    padding: 8rem 5rem 2rem;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -1254,7 +1254,7 @@ body {
 /* Responsive Design */
 @media (max-width: 1024px) {
     .hero-content {
-        padding: 5rem 3rem 2rem;
+        padding: 7rem 3rem 2rem;
     }
 
     .animated-visual {
@@ -1340,7 +1340,7 @@ body {
         grid-template-columns: 1fr;
         text-align: center;
         gap: 2rem;
-        padding: 4rem 2rem 1.5rem;
+        padding: 6rem 2rem 1.5rem;
     }
 
     .hero-title {
