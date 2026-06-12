@@ -5,12 +5,24 @@ const Projects = () => {
     {
       title: 'Fraud Detection System',
       description: 'A machine learning system utilizing Isolation Forest for high-accuracy fraud detection in financial transactions.',
+      link: 'https://github.com/shrilakshmikakati/Machine-Learning/blob/main/fraud_detection.ipynb',
       points: [
         'Developed a Fraud Detection System utilizing Isolation Forest on a simulated financial dataset, achieving 92% detection accuracy.',
         'Enhanced model performance by engineering time and amount-based features.',
         'Rigorously evaluated detection performance using anomaly scoring and true fraud labels.'
       ],
       tech: ['Python', 'Isolation Forest', 'Machine Learning', 'Data Engineering']
+    },
+    {
+      title: 'Movie Recommender System',
+      description: 'A machine learning system that recommends movies based on user preferences and movie metadata.',
+      link: 'https://github.com/shrilakshmikakati/Machine-Learning/blob/main/MovieRecommender.ipynb',
+      points: [
+        'Developed a Movie Recommendation System utilizing content-based filtering techniques.',
+        'Processed and analyzed movie datasets to extract meaningful features for similarity matching.',
+        'Implemented algorithms to suggest the most relevant movies based on input selections.'
+      ],
+      tech: ['Python', 'Pandas', 'Scikit-Learn', 'Machine Learning', 'Data Processing']
     },
     {
       title: 'Academic Credential Verification System',
